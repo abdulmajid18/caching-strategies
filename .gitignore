@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Python cache
+*.pyc
+
+# Environment variables
+.env
+
+# VSCode & IDE settings
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Docker
+*.log
+*.pid
+*.tar
+*.bak
+*.swp
+docker-compose.override.yml
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Redis and Postgres volumes (optional, if mapped to host)
+redis_data/
+postgres_data/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Test output
+test-results/
