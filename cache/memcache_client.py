@@ -1,11 +1,10 @@
 from typing import Any, Optional
-import memcache
 from cache_client import CacheClient
 
 
 class MemcacheCacheClient(CacheClient):
     def __init__(self, servers=['127.0.0.1:11211']):
-        self._client = memcache.Client(servers)
+        self._client = None
 
     def get(self, key: str) -> Any:
         return self._client.get(key)
